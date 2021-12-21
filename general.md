@@ -30,7 +30,7 @@ Create environment from file
 conda env create -f env.yml
 ```
 
-List pakcages in environments
+List packages in environment
 ```bash
 conda list -n environment_name
 
