@@ -25,9 +25,14 @@ Create new environment and install packages
 conda -c environment_name package1 package2
 ```
 
-Create environment from file
+Create environment from YAML
 ```bash
 conda env create -f env.yml
+```
+
+Create YAML from environment
+```bash
+conda env export --name environment_name > environment_name.yml
 ```
 
 List packages in environment
